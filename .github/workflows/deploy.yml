@@ -35,7 +35,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-4. Erstelle einen **CNAME-Record** für `www`:
-```
-Typ: CNAME    Host: www    Wert: dvx1de.github.io
