@@ -52,9 +52,15 @@ document.addEventListener('DOMContentLoaded', () => {
 const themeToggle = document.getElementById('themeToggle');
 const html = document.documentElement;
 
-// Check for saved theme preference
-const savedTheme = localStorage.getItem('theme') || 'dark';
-html.setAttribute('data-theme', savedTheme);
+// ALWAYS start with dark mode unless explicitly saved as light
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme === 'light') {
+    html.setAttribute('data-theme', 'light');
+} else {
+    // Default to dark mode
+    html.setAttribute('data-theme', 'dark');
+    localStorage.setItem('theme', 'dark');
+}
 
 themeToggle.addEventListener('click', () => {
     const currentTheme = html.getAttribute('data-theme');
