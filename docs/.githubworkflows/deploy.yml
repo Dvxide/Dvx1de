@@ -28,8 +28,7 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Deploy aus dem Dvx1de Unterordner
-          path: './Dvx1de'
+          path: ''
   
   deploy:
     environment:
