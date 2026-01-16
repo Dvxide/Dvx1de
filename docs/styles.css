@@ -532,6 +532,23 @@ section {
     object-fit: cover;
 }
 
+/* Logo switching based on theme */
+.profile-img-light {
+    display: block;
+}
+
+.profile-img-dark {
+    display: none;
+}
+
+[data-theme="light"] .profile-img-light {
+    display: none;
+}
+
+[data-theme="light"] .profile-img-dark {
+    display: block;
+}
+
 .profile-status {
     position: absolute;
     bottom: 1rem;
