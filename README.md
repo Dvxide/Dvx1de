@@ -6,7 +6,7 @@
 
 [![Website](https://img.shields.io/badge/Website-www.dvx1de.de-dc2626?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.dvx1de.de)
 [![Twitter](https://img.shields.io/badge/Twitter-@dvx1de-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/dvx1de)
-[![Email](https://img.shields.io/badge/Email-info@dvx1de.de-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:info@dvx1de.de)
+[![Email](https://img.shields.io/badge/Email-info@dvx1de.de-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:info@dvxide.de)
 
 ```ascii
 ╔═══════════════════════════════════════════════════════════════╗
@@ -68,12 +68,6 @@ Ich bin ein **System Administrator**, der sich auf robuste Infrastruktur, sicher
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Portainer](https://img.shields.io/badge/Portainer-13BEF9?style=for-the-badge&logo=portainer&logoColor=white)
 
-### 🔧 Infrastructure & DevOps
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-
 ### 🔐 Security & Networking
 ![pfSense](https://img.shields.io/badge/pfSense-212121?style=for-the-badge&logo=pfsense&logoColor=white)
 ![Pi-hole](https://img.shields.io/badge/Pi--hole-96060C?style=for-the-badge&logo=pi-hole&logoColor=white)
@@ -98,27 +92,6 @@ Ich bin ein **System Administrator**, der sich auf robuste Infrastruktur, sicher
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![iTerm2](https://img.shields.io/badge/iTerm2-000000?style=for-the-badge&logo=iterm2&logoColor=white)
 ![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white)
-
----
-
-## 🏠 Homelab Infrastructure
-
-```bash
-$ docker ps --format "table {{.Names}}\t{{.Status}}"
-```
-
-Mein 24/7 Homelab läuft mit verschiedenen Self-Hosted Services:
-
-| Service | Beschreibung | Status |
-|---------|-------------|--------|
-| 🎬 **Jellyfin** | Media Server für Filme & Serien | 🟢 Running |
-| 🔐 **Vaultwarden** | Password Manager | 🟢 Running |
-| 📊 **Grafana** | System Monitoring & Dashboards | 🟢 Running |
-| 🐳 **Portainer** | Container Management | 🟢 Running |
-| 🏠 **Homer** | Service Dashboard | 🟢 Running |
-| 🚫 **Pi-hole** | Network-wide Ad Blocker | 🟢 Running |
-| 📁 **Filebrowser** | Web-based File Manager | 🟢 Running |
-| 🔄 **Nginx** | Reverse Proxy | 🟢 Running |
 
 ---
 
@@ -164,28 +137,7 @@ class SystemAdmin:
         return tasks
 ```
 
----
 
-## 🔥 Featured Projects
-
-<div align="center">
-
-[![Portfolio Website](https://github-readme-stats.vercel.app/api/pin/?username=Dvxide&repo=dvxide.github.io&theme=radical&hide_border=true&bg_color=0d1117&title_color=dc2626&icon_color=dc2626&text_color=c9d1d9)](https://github.com/Dvxide/dvxide.github.io)
-
-</div>
-
-> 🚀 **Portfolio Website** - Professional portfolio showcasing system administration expertise with modern terminal-themed design
-
----
-
-## 📫 Get In Touch
-
-<div align="center">
-
-```bash
-# Choose your preferred method
-$ ping dvx1de@contact
-```
 
 [![Email](https://img.shields.io/badge/Email-info@dvx1de.de-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:info@dvx1de.de)
 [![Website](https://img.shields.io/badge/Website-www.dvx1de.de-dc2626?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.dvx1de.de)
@@ -193,29 +145,6 @@ $ ping dvx1de@contact
 [![GitHub](https://img.shields.io/badge/GitHub-Dvxide-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dvxide)
 
 </div>
-
----
-
-## 💡 Quick Facts
-
-```yaml
-code: [Python, Bash, PowerShell, YAML]
-os: [Ubuntu Server, Debian, Windows Server, Alpine Linux]
-infrastructure: [Docker, Kubernetes, Nginx, HAProxy]
-automation: [Ansible, Terraform, Shell Scripts]
-monitoring: [Grafana, Prometheus, ELK Stack]
-security: [pfSense, WireGuard, Fail2ban, CrowdSec]
-philosophy: "Automate everything, monitor constantly, secure by default"
-```
-
----
-
-## 🏆 Certifications & Learning Path
-
-- 🎯 **Currently Learning**: Kubernetes Administration (CKA)
-- 🔐 **Focus**: CompTIA Security+
-- 🐧 **Planned**: LPIC-2 (Linux Professional Institute)
-- ☁️ **Interest**: AWS Solutions Architect
 
 ---
 
@@ -227,20 +156,12 @@ philosophy: "Automate everything, monitor constantly, secure by default"
 
 ---
 
-**⚡ Fun Fact:** Mein Homelab läuft so stabil, dass ich manchmal vergesse, es zu überprüfen... Fast. 😄
-
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-
-</div>
-
----
-
 <div align="center">
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │  "In System Administration, we trust the logs, not luck."   │
-│                       - DVX1DE                              │
+│                       - DVXIDE                              │
 └─────────────────────────────────────────────────────────────┘
 ```
 
