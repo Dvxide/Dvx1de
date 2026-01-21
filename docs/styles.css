@@ -13,7 +13,7 @@
     --warning: #f59e0b;
 }
 
-html[data-theme="light"] {
+[data-theme="light"] {
     --bg-primary: #ffffff;
     --bg-secondary: #f8fafc;
     --bg-tertiary: #f1f5f9;
@@ -27,21 +27,21 @@ html[data-theme="light"] {
 }
 
 /* Light mode specific styling */
-html[data-theme="light"] nav {
+[data-theme="light"] nav {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(20px);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-html[data-theme="light"] nav.scrolled {
+[data-theme="light"] nav.scrolled {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
-html[data-theme="light"] .bg-grid {
+[data-theme="light"] .bg-grid {
     opacity: 0.3;
 }
 
-html[data-theme="light"] .bg-gradient {
+[data-theme="light"] .bg-gradient {
     opacity: 0.5;
 }
 
